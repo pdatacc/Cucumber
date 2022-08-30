@@ -3,17 +3,17 @@ Feature: Add book to a library
 
     Scenario: Admin adds new book to the library giving correct data
 
-        Given: Admin is logged in
+        Given Admin is logged in
 
         And admin is on the „library” page
 
-        When: Admin clicks on „add book” button
+        When Admin clicks on „add book” button
 
         And admin fills the „title” and „author” inputs with text
 
         And admin clicks „Ok” button.
 
-        Then: New book row is added to the list with the same „title” and „author” names as given during the adding process
+        Then New book row is added to the list with the same „title” and „author” names as given during the adding process
 
         And new book has its „rented” status as „available”.
 
