@@ -1,0 +1,24 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdatacc/Cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdatacc/Cucumber/issues"
+  },
+  "homepage": "https://github.com/pdatacc/Cucumber#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "hamjest": "^3.7.3"
+  }
+}
